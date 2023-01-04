@@ -1,0 +1,41 @@
+
+
+.friendItems {
+    width: 200px;
+    height: 200px;
+    display: inline-block; 
+    text-align: center;
+    background-color: rgb(223, 227, 228);
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.name {
+    padding-bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+
+.addFriendButton {
+    padding-top: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7f77f6;
+    font-weight: 700;
+    height: 10px;
+    width: 70%;
+    border: none;
+}
+
+.addFriendButton:hover {
+    background-color: #7269ef;
+    color: white;
+    cursor: pointer;
+}

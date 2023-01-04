@@ -1,0 +1,279 @@
+/* chatMenu */
+
+.tab__2 {
+    min-width: 380px;
+    max-width: 380px;
+    background-color: #f5f7fb;
+    margin-right: 2px;
+}
+
+.conversations {
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+
+/* messenger */
+
+.tab__3 {
+    box-shadow: 0 2px 7px rgb(15 34 58 / 12%);
+    background-color: #fff;
+    flex: 3;
+}
+
+.chat_masseages {
+    background-color: rgb(255, 255, 255);
+    height: 76.5%;
+    overflow-y: scroll;
+    border-bottom: 1px solid #e8e8ed!important;
+    padding: 24px;
+}
+
+
+/* chat_header
+    user
+        user_avatar
+        user_name
+chat_masseages
+chat_input */
+
+.chat_header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border-bottom: 1px solid #e8e8ed!important;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user_avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.sendButton {
+    font-size: 18px;
+    padding: 10px 17px;
+    border-radius: 5px;
+    margin-right: 40px;
+    border: none;
+    color: #fff;
+    background-color: #7269ef;
+}
+
+.send_icon {
+    color: #fff;
+}
+
+.friendSearchField {
+    border: none;
+    width: 100%;
+    height: 44px;
+    margin-left: 0px;
+    padding: 10px;
+    padding-left: 25px;
+    font: 400 13.5px Arial;
+    background-color: rgb(230, 235, 245);
+    border-radius: 5px;
+}
+
+.searchFriendBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.addConversationButton {
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    background-color: rgb(241, 241, 241);
+}
+
+.addConversationButton:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+
+.friendSearchForAdd,
+.textMessage {
+    margin-top: 10px;
+    font: 400 17px Arial;
+    border-radius: 5px;
+    background-color: rgb(230, 235, 245);
+    padding: 7px;
+    padding-left: 15px;
+    color: #495057;
+    width: 100%;
+}
+
+.listFriends {
+    height: 200px;
+    border-radius: 12px;
+    overflow-y: auto;
+}
+
+.addConverField {
+    padding: 10px 0 10px 0;
+}
+
+.addConverFormButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+
+.saveAddConver {
+    color: #fff;
+    background-color: #7269ef;
+    border-color: #7269ef;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .47rem .75rem;
+    font-size: .9375rem;
+    border-radius: .25rem;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.closeAddConver {
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .47rem .75rem;
+    font-size: .9375rem;
+    border-radius: .25rem;
+    color: #7269ef;
+}
+
+.saveAddConver:hover {
+    cursor: pointer;
+    background-color: #6159cb;
+}
+
+.closeAddConver:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.addConversationBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 24px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.addConversationBar h4 {
+    font-size: 1.3125rem;
+    margin: 0;
+    font-weight: 600;
+    color: #495057;
+    line-height: 35px;
+}
+
+.addConversationIcon {
+    font-size: 18px;
+}
+
+.conversations-wrapper {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.conversations-wrapper h5 {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 10px;
+}
+
+.user_name h5 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.chat_input_wrapper {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chat_input {
+    width: 100%;
+    height: 93px;
+    padding: 24px;
+}
+
+.input {
+    border: none;
+    outline-width: 0;
+    margin-left: 20px;
+    font: 400 15px Arial;
+    border-radius: 5px;
+    background-color: rgb(230, 235, 245);
+    padding: 5px;
+    padding-left: 15px;
+    color: #495057;
+    width: 789px;
+    height: 45px;
+}
+
+.input-container {
+    flex: 3;
+}
+
+.form {
+    height: 45px;
+    width: 1049px;
+}
+
+.default-screen {
+    display: flex;
+    justify-content: center;
+}
+
+.default-screen h2 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #7269ef;
+    text-align: center;
+}
+
+.default-screen h3 {
+    text-align: center;
+}

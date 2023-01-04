@@ -1,0 +1,124 @@
+.signIn {
+    width: 100vw;
+    height: 672px;
+    margin-top: 2rem!important;
+    margin-bottom: 3rem!important;
+    padding-top: 3rem;
+}
+
+.signInWrapper {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signInContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.signInContent {
+    width: 41.66667%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.signInHeader .signInTitle {
+    margin-bottom: 2.5rem;
+    font: 500 35px Trebuchet MS;
+    color: rgb(114, 105, 239);
+}
+
+.signInHeader h4 {
+    text-align: center;
+    font-size: 1.3125rem;
+    margin-bottom: 0.5rem;
+}
+
+.signInHeader p {
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+
+.signInForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #f5f7fb;
+    border-radius: .25rem;
+}
+
+.signInFormContainer {
+    flex: 1 1 auto;
+    padding: 2rem 2.3rem;
+}
+
+.signInForm label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+input {
+    outline-width: 0;
+    font: 400 15px Arial;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    color: #495057;
+    height: 45px;
+    width: 100%;
+}
+
+.signInInput {
+    background-color: rgba(230, 235, 245, .25)!important;
+    border: 1px solid #e6ebf5;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    font: 400 14px Arial;
+}
+
+.signInBox div {
+    margin-bottom: 1rem!important;
+}
+
+.signInButton {
+    border: 1px solid transparent;
+    padding: .47rem .75rem;
+    font-size: .9375rem;
+    border-radius: .25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    color: #fff;
+    background-color: #7269ef;
+    margin-top: 1.25rem;
+}
+
+.signInButton:hover {
+    color: #fff;
+    background-color: #6159cb;
+    border-color: #5b54bf;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a,
+button {
+    outline: none!important;
+}
+
+.signInFooter {
+    text-align: center!important;
+    margin-top: 2rem;
+}
+
+.signInFooter p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

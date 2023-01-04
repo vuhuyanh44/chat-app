@@ -1,0 +1,48 @@
+.conversation {
+    width: 100%;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(230, 235, 245);
+    margin-top: 12px;
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+
+.conversationInfo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.conversationImg {
+    width: 35x;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.Info {
+    height: 100%;
+    /* flex-direction: column; */
+}
+
+.Info h5 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    padding: 0px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.messageText {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.conversation-wapper:hover {
+    background-color: red;
+}
